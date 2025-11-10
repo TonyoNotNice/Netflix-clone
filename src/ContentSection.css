@@ -1,0 +1,67 @@
+.contentSection {
+  margin-left: 20px;
+}
+
+.contentSection h2 {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+.contentSection__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.contentSection__posters {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scroll-behavior: smooth;
+  padding: 20px;
+  width: 100%;
+}
+
+.contentSection__posters::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari */
+}
+
+.contentSection__poster {
+  width: 150px;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.contentSection__poster:hover {
+  transform: scale(1.08);
+}
+
+.contentSection__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.contentSection__arrow.left {
+  left: 10px;
+}
+
+.contentSection__arrow.right {
+  right: 10px;
+}
+
+.contentSection__arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,38 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111; /* Netflix dark background */
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+a {
+  color: #e50914; /* Netflix red for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f40612;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
