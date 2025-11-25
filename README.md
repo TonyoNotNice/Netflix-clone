@@ -21,7 +21,7 @@ This is a Netflix clone built with React, designed to mimic the look and feel of
 
 ```bash
 # Clone the repository
-git clone https://github.com/mauranyathi/netflix-clone.git
+git clone https://github.com/TonyoNotNice/netflix-clone.git
 
 # Navigate to the project directory
 cd netflix-clone
